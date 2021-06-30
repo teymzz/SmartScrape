@@ -207,8 +207,8 @@ class SmartScrape{
 
     var_dump($SmartScrape->getItem());
 
-    console($SmartScrape->getItem()); view in browser console
-    console($SmartScrape->getItem("images")); get only the images
+    var_dump($SmartScrape->getItem()); 
+    var_dump($SmartScrape->getItem("images")); get only the images
   }else{
 
     print $e->getMessage();
